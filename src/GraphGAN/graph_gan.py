@@ -12,8 +12,10 @@ import config
 from generator import Generator
 from discriminator import Discriminator
 import sys
+sys.path.append('/content/GraphGAN-PyTorch/src')
 import utils
-from evaluation import link_prediction as lp
+sys.path.append('/content/GraphGAN-PyTorch/src/evaluation')
+import link_prediction as lp
 
 
 
