@@ -4,6 +4,8 @@ The class is used to evaluate the application of link prediction
 
 import numpy as np
 from sklearn.metrics import accuracy_score
+import sys
+sys.path.append('/content/GraphGAN-PyTorch/src')
 import utils
 
 

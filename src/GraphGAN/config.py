@@ -33,7 +33,7 @@ dataset = "CA-GrQc"
 
 # GraphGAN directory location
 # e.g. "/home/hyunjin/GraphGAN_pytorch/"
-PATH = ""
+PATH = "/content/GraphGAN-PyTorch"
 
 # path settings
 train_filename = os.path.join(PATH, 'data', app, dataset + "_train.txt")
