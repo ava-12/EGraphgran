@@ -11,6 +11,7 @@ import torch.nn.functional as F
 import config
 from generator import Generator
 from discriminator import Discriminator
+import sys
 import utils
 from evaluation import link_prediction as lp
 
